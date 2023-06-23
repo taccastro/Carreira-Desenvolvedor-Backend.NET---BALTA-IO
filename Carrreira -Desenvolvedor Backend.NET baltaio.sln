@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Fundamentos do C#", "01.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOD7_TextEditor", "Modulo 07 - TextEditor\MOD7_TextEditor.csproj", "{40F20A6B-F244-450F-9072-0E72DED6471B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOD8_Stopwatch", "Modulo 08 - Stopwatch\MOD8_Stopwatch.csproj", "{C25178F6-C6BD-4355-9C4A-34A853052107}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,18 @@ Global
 		{40F20A6B-F244-450F-9072-0E72DED6471B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40F20A6B-F244-450F-9072-0E72DED6471B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40F20A6B-F244-450F-9072-0E72DED6471B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25178F6-C6BD-4355-9C4A-34A853052107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25178F6-C6BD-4355-9C4A-34A853052107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25178F6-C6BD-4355-9C4A-34A853052107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25178F6-C6BD-4355-9C4A-34A853052107}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C992B45F-3086-4062-A6CC-4353444055FF} = {BC4729A4-752E-4288-9B71-2C06676A558B}
+		{40F20A6B-F244-450F-9072-0E72DED6471B} = {BC4729A4-752E-4288-9B71-2C06676A558B}
+		{C25178F6-C6BD-4355-9C4A-34A853052107} = {BC4729A4-752E-4288-9B71-2C06676A558B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16266BCE-9A85-4093-9017-89C782638F29}
