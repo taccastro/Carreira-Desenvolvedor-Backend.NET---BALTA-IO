@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOD6_Calculator", "Modulo 06 - Calculator\MOD6_Calculator.csproj", "{C992B45F-3086-4062-A6CC-4353444055FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_MOD6_Calculator", "Modulo 06 - Calculator\A_MOD6_Calculator.csproj", "{C992B45F-3086-4062-A6CC-4353444055FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Fundamentos do C#", "01.Fundamentos do C#", "{BC4729A4-752E-4288-9B71-2C06676A558B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOD8_TextEditor", "Modulo 07 - TextEditor\MOD8_TextEditor.csproj", "{40F20A6B-F244-450F-9072-0E72DED6471B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_MOD8_TextEditor", "Modulo 07 - TextEditor\C_MOD8_TextEditor.csproj", "{40F20A6B-F244-450F-9072-0E72DED6471B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOD7_Stopwatch", "Modulo 08 - Stopwatch\MOD7_Stopwatch.csproj", "{C25178F6-C6BD-4355-9C4A-34A853052107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B_MOD7_Stopwatch", "Modulo 08 - Stopwatch\B_MOD7_Stopwatch.csproj", "{C25178F6-C6BD-4355-9C4A-34A853052107}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOD9_Strings", "Modulo 09 - Strings\MOD9_Strings.csproj", "{8BF8358B-18AC-4B11-9AB7-377614678987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D_MOD9_Strings", "Modulo 09 - Strings\D_MOD9_Strings.csproj", "{8BF8358B-18AC-4B11-9AB7-377614678987}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOD10_EditorHtml", "Modulo 10 - EditorHtml\MOD10_EditorHtml.csproj", "{31252456-DA5F-4083-9C01-FFC2E550C770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_MOD10_EditorHtml", "Modulo 10 - EditorHtml\E_MOD10_EditorHtml.csproj", "{31252456-DA5F-4083-9C01-FFC2E550C770}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F_MOD11_Datas", "Modulo 11 - Datas\F_MOD11_Datas.csproj", "{4601FE05-1DB0-4EC9-810A-1DF685A02F8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{31252456-DA5F-4083-9C01-FFC2E550C770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31252456-DA5F-4083-9C01-FFC2E550C770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31252456-DA5F-4083-9C01-FFC2E550C770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4601FE05-1DB0-4EC9-810A-1DF685A02F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4601FE05-1DB0-4EC9-810A-1DF685A02F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4601FE05-1DB0-4EC9-810A-1DF685A02F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4601FE05-1DB0-4EC9-810A-1DF685A02F8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{C25178F6-C6BD-4355-9C4A-34A853052107} = {BC4729A4-752E-4288-9B71-2C06676A558B}
 		{8BF8358B-18AC-4B11-9AB7-377614678987} = {BC4729A4-752E-4288-9B71-2C06676A558B}
 		{31252456-DA5F-4083-9C01-FFC2E550C770} = {BC4729A4-752E-4288-9B71-2C06676A558B}
+		{4601FE05-1DB0-4EC9-810A-1DF685A02F8D} = {BC4729A4-752E-4288-9B71-2C06676A558B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16266BCE-9A85-4093-9017-89C782638F29}
