@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G_MOD12_Moedas", "Modulo 12
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H_MOD13_Arrays", "Modulo 13 - Arrays\H_MOD13_Arrays.csproj", "{0CF50232-087B-40CC-92B3-861661647D2C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I_MOD14_Exceptions", "Modulo 14 - Exceptions\I_MOD14_Exceptions.csproj", "{A2FFC97F-8CC1-46E5-8E3E-28A0AB3AB044}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{0CF50232-087B-40CC-92B3-861661647D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF50232-087B-40CC-92B3-861661647D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF50232-087B-40CC-92B3-861661647D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FFC97F-8CC1-46E5-8E3E-28A0AB3AB044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FFC97F-8CC1-46E5-8E3E-28A0AB3AB044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FFC97F-8CC1-46E5-8E3E-28A0AB3AB044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FFC97F-8CC1-46E5-8E3E-28A0AB3AB044}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{4601FE05-1DB0-4EC9-810A-1DF685A02F8D} = {BC4729A4-752E-4288-9B71-2C06676A558B}
 		{B4035B66-92E6-4744-9154-6405EED0F12F} = {BC4729A4-752E-4288-9B71-2C06676A558B}
 		{0CF50232-087B-40CC-92B3-861661647D2C} = {BC4729A4-752E-4288-9B71-2C06676A558B}
+		{A2FFC97F-8CC1-46E5-8E3E-28A0AB3AB044} = {BC4729A4-752E-4288-9B71-2C06676A558B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16266BCE-9A85-4093-9017-89C782638F29}
