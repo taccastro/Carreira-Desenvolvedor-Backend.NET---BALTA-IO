@@ -9,13 +9,13 @@ namespace Numbers
         {
             Console.Clear();
 
-            //decimal valor = 10536.25m;
-            //Console.Write(valor);
+            decimal valor = 10536.25m;
+            Console.Write(valor);
 
             decimal valor2 = 10.25m;
-            Console.Write(valor2.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));
-        
-
+            Console.Write(valor2.ToString(
+                "C", CultureInfo.CreateSpecificCulture("pt-BR")
+                ));    
         }
     }
 }
