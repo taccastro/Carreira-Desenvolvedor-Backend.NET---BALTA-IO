@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H_MOD13_Arrays", "Modulo 13
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I_MOD14_Exceptions", "Modulo 14 - Exceptions\I_MOD14_Exceptions.csproj", "{A2FFC97F-8CC1-46E5-8E3E-28A0AB3AB044}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Fundamentos da Orientação a Objetos", "02.Fundamentos da Orientação a Objetos", "{D46EE2B6-DE8A-4D6E-A8E9-4814960C89F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
