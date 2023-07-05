@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H_MOD13_Arrays", "01.Fundam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I_MOD14_Exceptions", "01.Fundamentos do C#\Modulo 14 - Exceptions\I_MOD14_Exceptions.csproj", "{3ABAFEE1-6C79-44B1-BD04-9D7AA5DECBF3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos POO", "02.Fundamentos da Orientação a Objetos\Fundamentos POO.csproj", "{B238FA38-3FD6-4DB2-B8BA-512DAED321A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{3ABAFEE1-6C79-44B1-BD04-9D7AA5DECBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ABAFEE1-6C79-44B1-BD04-9D7AA5DECBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ABAFEE1-6C79-44B1-BD04-9D7AA5DECBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B238FA38-3FD6-4DB2-B8BA-512DAED321A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B238FA38-3FD6-4DB2-B8BA-512DAED321A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B238FA38-3FD6-4DB2-B8BA-512DAED321A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B238FA38-3FD6-4DB2-B8BA-512DAED321A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{FC81D21D-1BB1-4852-AEAC-32E8517BB04D} = {95D2006E-D6F9-4D08-A967-724FB599FE96}
 		{B6B82D98-D1F9-432F-BA35-C2486C28113D} = {95D2006E-D6F9-4D08-A967-724FB599FE96}
 		{3ABAFEE1-6C79-44B1-BD04-9D7AA5DECBF3} = {95D2006E-D6F9-4D08-A967-724FB599FE96}
+		{B238FA38-3FD6-4DB2-B8BA-512DAED321A3} = {D46EE2B6-DE8A-4D6E-A8E9-4814960C89F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16266BCE-9A85-4093-9017-89C782638F29}
