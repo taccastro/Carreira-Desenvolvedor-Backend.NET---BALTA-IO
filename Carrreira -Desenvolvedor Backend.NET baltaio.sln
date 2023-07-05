@@ -27,6 +27,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I_MOD14_Exceptions", "01.Fu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos POO", "02.Fundamentos da Orientação a Objetos\Fundamentos POO.csproj", "{B238FA38-3FD6-4DB2-B8BA-512DAED321A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Fundamentos do Sql Server", "03.Fundamentos do Sql Server", "{DA13F8D8-E0A5-4BFA-BF73-6A8B61D75DFA}"
+	ProjectSection(SolutionItems) = preProject
+		03.Fundamentos do Sql Server\001.sql = 03.Fundamentos do Sql Server\001.sql
+		03.Fundamentos do Sql Server\balta-database.sql = 03.Fundamentos do Sql Server\balta-database.sql
+		03.Fundamentos do Sql Server\balta.zip = 03.Fundamentos do Sql Server\balta.zip
+		03.Fundamentos do Sql Server\create_database_cursos.sql = 03.Fundamentos do Sql Server\create_database_cursos.sql
+		03.Fundamentos do Sql Server\drop_database.sql = 03.Fundamentos do Sql Server\drop_database.sql
+		03.Fundamentos do Sql Server\insere_alunos_cursos.sql = 03.Fundamentos do Sql Server\insere_alunos_cursos.sql
+		03.Fundamentos do Sql Server\inserts.sql = 03.Fundamentos do Sql Server\inserts.sql
+		03.Fundamentos do Sql Server\insert_into_studen_courses.sql = 03.Fundamentos do Sql Server\insert_into_studen_courses.sql
+		03.Fundamentos do Sql Server\README.md = 03.Fundamentos do Sql Server\README.md
+		03.Fundamentos do Sql Server\select.sql = 03.Fundamentos do Sql Server\select.sql
+		03.Fundamentos do Sql Server\spDeleteStudent.sql = 03.Fundamentos do Sql Server\spDeleteStudent.sql
+		03.Fundamentos do Sql Server\spListCourse.sql = 03.Fundamentos do Sql Server\spListCourse.sql
+		03.Fundamentos do Sql Server\spStudentProgress.sql = 03.Fundamentos do Sql Server\spStudentProgress.sql
+		03.Fundamentos do Sql Server\vwCareers.sql = 03.Fundamentos do Sql Server\vwCareers.sql
+		03.Fundamentos do Sql Server\vwCourses.sql = 03.Fundamentos do Sql Server\vwCourses.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
