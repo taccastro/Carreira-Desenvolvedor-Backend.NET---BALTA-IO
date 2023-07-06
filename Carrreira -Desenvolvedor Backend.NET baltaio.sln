@@ -44,6 +44,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Fundamentos do Sql Serve
 		03.Fundamentos do Sql Server\vwCourses.sql = 03.Fundamentos do Sql Server\vwCourses.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Acesso a Dados .NET Dapper SQL", "04.Acesso a Dados .NET Dapper SQL", "{BE2F07EA-0AE7-4A5D-84A3-8336C67A47F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
