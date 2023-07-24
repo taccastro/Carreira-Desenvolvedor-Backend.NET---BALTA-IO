@@ -70,6 +70,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{4FFF
 		04.Acesso à Dados Com .NET, C#, Dapper e SQL Server\Scripts\vwCourses.sql = 04.Acesso à Dados Com .NET, C#, Dapper e SQL Server\Scripts\vwCourses.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04Mod5_dapper", "04Mod5_dapper", "{17608676-04EF-458A-ADD3-0B0CA1E03F5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_dapper4", "04.Acesso à Dados Com .NET, C#, Dapper e SQL Server\04Mod5\balta_dapper4.csproj", "{EBFD3406-1E41-4D65-9F31-BF49516FE2B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -132,6 +136,10 @@ Global
 		{AE82E8CC-B981-4570-B586-DCF0DDCEA2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE82E8CC-B981-4570-B586-DCF0DDCEA2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE82E8CC-B981-4570-B586-DCF0DDCEA2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFD3406-1E41-4D65-9F31-BF49516FE2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFD3406-1E41-4D65-9F31-BF49516FE2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFD3406-1E41-4D65-9F31-BF49516FE2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFD3406-1E41-4D65-9F31-BF49516FE2B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +164,8 @@ Global
 		{3C889A1C-F4C9-4C87-AAC4-CDBC1F144EBA} = {BE2F07EA-0AE7-4A5D-84A3-8336C67A47F3}
 		{AE82E8CC-B981-4570-B586-DCF0DDCEA2DE} = {3C889A1C-F4C9-4C87-AAC4-CDBC1F144EBA}
 		{4FFF777A-EBB2-4A57-8E21-826C9C4CBD83} = {BE2F07EA-0AE7-4A5D-84A3-8336C67A47F3}
+		{17608676-04EF-458A-ADD3-0B0CA1E03F5D} = {BE2F07EA-0AE7-4A5D-84A3-8336C67A47F3}
+		{EBFD3406-1E41-4D65-9F31-BF49516FE2B1} = {17608676-04EF-458A-ADD3-0B0CA1E03F5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16266BCE-9A85-4093-9017-89C782638F29}
