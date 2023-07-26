@@ -20,10 +20,10 @@ namespace Blog.Repositories
             => _connection.Insert<T>(model);
 
         public void Update(T model)
-=> _connection.Update<T>(model);
+            => _connection.Update<T>(model);
 
         public void Delete(T model)
-                => _connection.Delete<T>(model);
+            => _connection.Delete<T>(model);
 
         public void Delete(int id)
         {
