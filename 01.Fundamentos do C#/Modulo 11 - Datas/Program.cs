@@ -81,6 +81,6 @@ namespace DatesSample
             return today == DayOfWeek.Saturday || today == DayOfWeek.Sunday;
         }
 
-        
+
     }
 }

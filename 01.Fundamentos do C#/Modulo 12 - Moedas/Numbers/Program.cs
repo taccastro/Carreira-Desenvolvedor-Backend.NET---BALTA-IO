@@ -15,7 +15,7 @@ namespace Numbers
             decimal valor2 = 10.25m;
             Console.Write(valor2.ToString(
                 "C", CultureInfo.CreateSpecificCulture("pt-BR")
-                ));    
+                ));
         }
     }
 }

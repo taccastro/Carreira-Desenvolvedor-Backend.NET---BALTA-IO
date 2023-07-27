@@ -1,6 +1,6 @@
-using System.Collections.Generic;
 using Dapper.Contrib.Extensions;
 using Microsoft.Data.SqlClient;
+using System.Collections.Generic;
 
 namespace Blog.Repositories
 {

@@ -1,8 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Balta.NotificationContext;
 using Balta.SharedContext;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Balta.SubscriptionContext
 {

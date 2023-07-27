@@ -1,8 +1,6 @@
-﻿using System;
-using System.Linq;
-using Blog.Data;
+﻿using Blog.Data;
 using Blog.Models;
-using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Blog
 {
@@ -11,8 +9,8 @@ namespace Blog
         static void Main(string[] args)
         {
             using var context = new BlogDataContext();
-            
-            
+
+
             var user = new User
             {
                 Name = "André Baltieri",

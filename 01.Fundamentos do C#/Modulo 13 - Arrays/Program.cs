@@ -12,7 +12,7 @@ namespace H_MOD13_Arrays
             meuArray[0] = 12;
             Console.WriteLine(meuArray[0]);
             Console.WriteLine(meuArray[1]);
-     
+
 
             var meuArray2 = new int[5] { 10, 20, 40, 45, 50 };
 
@@ -23,7 +23,7 @@ namespace H_MOD13_Arrays
 
             var meuArray3 = new int[5] { 11223, 232130, 41230, 4532424, 50 };
 
-            foreach (var item in meuArray3)            
+            foreach (var item in meuArray3)
                 Console.WriteLine(item);
 
             var funcionarios = new Funcionario[2];
@@ -37,7 +37,7 @@ namespace H_MOD13_Arrays
         }
 
         public struct Funcionario
-        { 
+        {
             public int id { get; set; }
             public string Nome { get; set; }
         }

@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using Dapper.Contrib.Extensions;
+using System.Collections.Generic;
 
 namespace Blog.Models
 {

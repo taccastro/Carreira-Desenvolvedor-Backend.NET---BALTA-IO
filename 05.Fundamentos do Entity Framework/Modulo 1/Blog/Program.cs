@@ -1,8 +1,5 @@
-﻿using System;
-using System.Linq;
-using Blog.Data;
+﻿using Blog.Data;
 using Blog.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace Blog
 {

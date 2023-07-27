@@ -1,5 +1,5 @@
-using System;
 using Dapper.Contrib.Extensions;
+using System;
 
 namespace BaltaDataAccess.Models
 {

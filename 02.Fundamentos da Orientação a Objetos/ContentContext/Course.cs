@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using Balta.ContentContext.Enums;
+using System.Collections.Generic;
 
 namespace Balta.ContentContext
 {

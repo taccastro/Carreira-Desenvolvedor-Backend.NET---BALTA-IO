@@ -1,10 +1,10 @@
-﻿using System;
+﻿using BaltaDataAccess.Models;
+using Dapper;
+using Microsoft.Data.SqlClient;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using BaltaDataAccess.Models;
-using Dapper;
-using Microsoft.Data.SqlClient;
 
 namespace BaltaDataAccess
 {

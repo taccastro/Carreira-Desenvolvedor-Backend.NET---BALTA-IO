@@ -1,7 +1,7 @@
-﻿using System;
-using Blog.Models;
+﻿using Blog.Models;
 using Blog.Repositories;
 using Microsoft.Data.SqlClient;
+using System;
 
 namespace Blog
 {

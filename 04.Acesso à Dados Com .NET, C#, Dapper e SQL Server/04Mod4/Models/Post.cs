@@ -1,6 +1,6 @@
+using Dapper.Contrib.Extensions;
 using System;
 using System.Collections.Generic;
-using Dapper.Contrib.Extensions;
 
 namespace Blog.Models
 {

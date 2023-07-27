@@ -1,8 +1,8 @@
-using System.Collections.Generic;
-using System.Linq;
 using Blog.Models;
 using Dapper;
 using Microsoft.Data.SqlClient;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Blog.Repositories
 {

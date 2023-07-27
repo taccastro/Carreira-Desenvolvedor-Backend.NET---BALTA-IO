@@ -1,5 +1,5 @@
-using System;
 using Balta.NotificationContext;
+using System;
 
 namespace Balta.SharedContext
 {
