@@ -97,7 +97,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Fundamentos do ASP.NET 6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod1", "06.Fundamentos do ASP.NET 6\Modulo 1\MinhaApi\balta_net6_mod1.csproj", "{2FADA0CE-56EF-464F-B9F4-27413E63B1E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod2", "06.Fundamentos do ASP.NET 6\Modulo 2\Todo\balta_net6_mod2.csproj", "{25B2B00F-DFE7-4279-AC4D-1C6B370529AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod2_crud_sqlite", "06.Fundamentos do ASP.NET 6\Modulo 2\Todo\balta_net6_mod2_crud_sqlite.csproj", "{25B2B00F-DFE7-4279-AC4D-1C6B370529AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
