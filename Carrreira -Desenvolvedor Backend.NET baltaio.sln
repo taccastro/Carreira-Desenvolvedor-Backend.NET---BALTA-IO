@@ -105,6 +105,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod4_crud_entity
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod5_sendmail_uploadimage", "06.Fundamentos do ASP.NET 6\Modulo 5\Blog\balta_net6_mod5_sendmail_uploadimage.csproj", "{3EF5550E-F8D5-42A0-919F-3A900A80D40C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod6", "06.Fundamentos do ASP.NET 6\Modulo 6\Blog\balta_net6_mod6.csproj", "{CDC31633-C47F-4D32-8856-F978748205E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{3EF5550E-F8D5-42A0-919F-3A900A80D40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EF5550E-F8D5-42A0-919F-3A900A80D40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EF5550E-F8D5-42A0-919F-3A900A80D40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC31633-C47F-4D32-8856-F978748205E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC31633-C47F-4D32-8856-F978748205E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC31633-C47F-4D32-8856-F978748205E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC31633-C47F-4D32-8856-F978748205E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -241,6 +247,7 @@ Global
 		{B59296FB-AFEA-431C-B452-70BBA0322B31} = {F35BC1DF-4496-48EE-BFDF-E0B7B5016BEF}
 		{326F32C9-6728-4E6D-B85B-5DF4A62A642B} = {F35BC1DF-4496-48EE-BFDF-E0B7B5016BEF}
 		{3EF5550E-F8D5-42A0-919F-3A900A80D40C} = {F35BC1DF-4496-48EE-BFDF-E0B7B5016BEF}
+		{CDC31633-C47F-4D32-8856-F978748205E2} = {F35BC1DF-4496-48EE-BFDF-E0B7B5016BEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16266BCE-9A85-4093-9017-89C782638F29}
