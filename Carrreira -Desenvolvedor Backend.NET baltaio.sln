@@ -111,6 +111,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod7_net5", "06.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod8_configs", "06.Fundamentos do ASP.NET 6\Modulo 8\Blog\balta_net6_mod8_configs.csproj", "{359CA0E8-5D49-42F6-A5CC-8E543FBED565}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Fundamentos do Git e Azure DevOps", "07.Fundamentos do Git e Azure DevOps", "{E1A91126-59FA-48D0-95C8-3502442821F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
