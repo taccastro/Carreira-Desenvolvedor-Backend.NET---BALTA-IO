@@ -113,6 +113,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod8_configs", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Fundamentos do Git e Azure DevOps", "07.Fundamentos do Git e Azure DevOps", "{E1A91126-59FA-48D0-95C8-3502442821F8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.Modelando Domínios Ricos", "08.Modelando Domínios Ricos", "{54FF962B-B364-4419-A155-1925E8E7B02E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentContext.Domain", "08.Modelando Domínios Ricos\PaymentContext.Domain\PaymentContext.Domain.csproj", "{56C33007-4DC3-4751-A07D-11E49274F269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentContext.Shared", "08.Modelando Domínios Ricos\PaymentContext.Shared\PaymentContext.Shared.csproj", "{E008B80B-480D-452F-8A54-0468769D918A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentContext.Tests", "08.Modelando Domínios Ricos\PaymentContext.Tests\PaymentContext.Tests.csproj", "{86C68010-55D0-4107-9624-E15DB3C32021}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +231,18 @@ Global
 		{359CA0E8-5D49-42F6-A5CC-8E543FBED565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{359CA0E8-5D49-42F6-A5CC-8E543FBED565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{359CA0E8-5D49-42F6-A5CC-8E543FBED565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C33007-4DC3-4751-A07D-11E49274F269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C33007-4DC3-4751-A07D-11E49274F269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C33007-4DC3-4751-A07D-11E49274F269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C33007-4DC3-4751-A07D-11E49274F269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E008B80B-480D-452F-8A54-0468769D918A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E008B80B-480D-452F-8A54-0468769D918A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E008B80B-480D-452F-8A54-0468769D918A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E008B80B-480D-452F-8A54-0468769D918A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C68010-55D0-4107-9624-E15DB3C32021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C68010-55D0-4107-9624-E15DB3C32021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C68010-55D0-4107-9624-E15DB3C32021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C68010-55D0-4107-9624-E15DB3C32021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +284,9 @@ Global
 		{CDC31633-C47F-4D32-8856-F978748205E2} = {F35BC1DF-4496-48EE-BFDF-E0B7B5016BEF}
 		{5E0DE768-437C-4935-847C-6F9E6215A454} = {F35BC1DF-4496-48EE-BFDF-E0B7B5016BEF}
 		{359CA0E8-5D49-42F6-A5CC-8E543FBED565} = {F35BC1DF-4496-48EE-BFDF-E0B7B5016BEF}
+		{56C33007-4DC3-4751-A07D-11E49274F269} = {54FF962B-B364-4419-A155-1925E8E7B02E}
+		{E008B80B-480D-452F-8A54-0468769D918A} = {54FF962B-B364-4419-A155-1925E8E7B02E}
+		{86C68010-55D0-4107-9624-E15DB3C32021} = {54FF962B-B364-4419-A155-1925E8E7B02E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16266BCE-9A85-4093-9017-89C782638F29}
