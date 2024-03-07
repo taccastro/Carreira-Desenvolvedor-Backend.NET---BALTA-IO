@@ -113,7 +113,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balta_net6_mod8_configs", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Fundamentos do Git e Azure DevOps", "07.Fundamentos do Git e Azure DevOps", "{E1A91126-59FA-48D0-95C8-3502442821F8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.Modelando Domínios Ricos", "08.Modelando Domínios Ricos", "{54FF962B-B364-4419-A155-1925E8E7B02E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.Modelando Domínios Ricos -start_aula6", "08.Modelando Domínios Ricos -start_aula6", "{54FF962B-B364-4419-A155-1925E8E7B02E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentContext.Domain", "08.Modelando Domínios Ricos\PaymentContext.Domain\PaymentContext.Domain.csproj", "{56C33007-4DC3-4751-A07D-11E49274F269}"
 EndProject
