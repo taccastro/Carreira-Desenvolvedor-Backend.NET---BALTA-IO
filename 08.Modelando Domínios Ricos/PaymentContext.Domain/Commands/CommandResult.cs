@@ -6,9 +6,9 @@ namespace PaymentContext.Domain.Commands
     {
         public CommandResult()
         {
-            
+
         }
-        
+
         public CommandResult(bool success, string message)
         {
             Success = success;

@@ -1,7 +1,7 @@
-using System;
 using Flunt.Notifications;
 using PaymentContext.Domain.Enums;
 using PaymentContext.Shared.Commands;
+using System;
 
 namespace PaymentContext.Domain.Commands
 {

@@ -1,6 +1,6 @@
+using PaymentContext.Domain.Entities;
 using System;
 using System.Linq.Expressions;
-using PaymentContext.Domain.Entities;
 
 namespace PaymentContext.Domain.Queries
 {

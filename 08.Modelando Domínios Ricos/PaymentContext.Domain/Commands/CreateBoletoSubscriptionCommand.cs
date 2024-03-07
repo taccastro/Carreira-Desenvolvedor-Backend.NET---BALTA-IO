@@ -1,8 +1,8 @@
-using System;
 using Flunt.Notifications;
 using Flunt.Validations;
 using PaymentContext.Domain.Enums;
 using PaymentContext.Shared.Commands;
+using System;
 
 namespace PaymentContext.Domain.Commands
 {
@@ -39,7 +39,7 @@ namespace PaymentContext.Domain.Commands
             AddNotifications(new Contract()
                 .Requires()
                 .HasMinLen(FirstName, 3, "Name.FirstName", "Nome deve conter pelo menos 3 caracteres")
-                .HasMaxLen(FirstName, 40, "Name.FirstName", "Nome deve conter até 40 caracteres")                
+                .HasMaxLen(FirstName, 40, "Name.FirstName", "Nome deve conter até 40 caracteres")
             );
         }
     }

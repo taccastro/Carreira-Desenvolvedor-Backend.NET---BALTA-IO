@@ -1,7 +1,7 @@
-using System;
 using Flunt.Validations;
 using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
+using System;
 
 namespace PaymentContext.Domain.Entities
 {

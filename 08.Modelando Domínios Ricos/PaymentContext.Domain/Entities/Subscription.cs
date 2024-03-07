@@ -1,8 +1,8 @@
+using Flunt.Validations;
+using PaymentContext.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Flunt.Validations;
-using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities
 {
