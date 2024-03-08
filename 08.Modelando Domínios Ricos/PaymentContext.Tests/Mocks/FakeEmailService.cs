@@ -1,5 +1,3 @@
-using PaymentContext.Domain.Entities;
-using PaymentContext.Domain.Repositories;
 using PaymentContext.Domain.Services;
 
 namespace PaymentContext.Tests.Mocks
@@ -8,7 +6,7 @@ namespace PaymentContext.Tests.Mocks
     {
         public void Send(string to, string email, string subject, string body)
         {
-            
+
         }
     }
 }

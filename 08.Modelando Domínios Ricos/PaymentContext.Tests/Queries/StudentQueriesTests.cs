@@ -1,14 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PaymentContext.Domain.Commands;
 using PaymentContext.Domain.Entities;
 using PaymentContext.Domain.Enums;
-using PaymentContext.Domain.Handlers;
 using PaymentContext.Domain.Queries;
 using PaymentContext.Domain.ValueObjects;
-using PaymentContext.Tests.Mocks;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace PaymentContext.Tests
 {
