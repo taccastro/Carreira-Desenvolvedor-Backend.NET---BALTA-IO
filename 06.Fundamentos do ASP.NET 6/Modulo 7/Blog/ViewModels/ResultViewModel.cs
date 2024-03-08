@@ -1,4 +1,6 @@
-﻿namespace Blog.ViewModels
+﻿using System.Collections.Generic;
+
+namespace Blog.ViewModels
 {
     public class ResultViewModel<T>
     {

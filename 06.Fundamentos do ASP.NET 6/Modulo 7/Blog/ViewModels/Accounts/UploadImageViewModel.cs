@@ -1,9 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Blog.ViewModels.Accounts;
-
-public class UploadImageViewModel
+namespace Blog.ViewModels.Accounts
 {
-    [Required(ErrorMessage = "Imagem inválida")]
-    public string Base64Image { get; set; }
+    public class UploadImageViewModel
+    {
+        [Required(ErrorMessage = "Imagem inválida")]
+        public string Base64Image { get; set; }
+    }
 }
