@@ -35,7 +35,9 @@ namespace Blog.Controllers
             };
 
             var password = PasswordGenerator.Generate(25);
-            user.PasswordHash = PasswordHasher<>.Hash(password);
+            //user.PasswordHash = PasswordHasher<User>.Hash(password);
+            
+            
 
             try
             {
