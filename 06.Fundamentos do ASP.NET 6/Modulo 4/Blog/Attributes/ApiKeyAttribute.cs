@@ -7,7 +7,7 @@ namespace Blog.Attributes;
 public class ApiKeyAttribute : Attribute, IAsyncActionFilter
 {
     public async Task OnActionExecutionAsync(
-        ActionExecutingContext context, 
+        ActionExecutingContext context,
         ActionExecutionDelegate next)
     {
         if (!context.HttpContext.Request.Query.TryGetValue(Configuration.ApiKeyName, out var extractedApiKey))
@@ -19,7 +19,7 @@ public class ApiKeyAttribute : Attribute, IAsyncActionFilter
             };
             return;
         }
-        
+
         if (!Configuration.ApiKey.Equals(extractedApiKey))
         {
             context.Result = new ContentResult()

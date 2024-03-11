@@ -1,9 +1,9 @@
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Store.Domain.Commands;
 using Store.Domain.Handlers;
 using Store.Domain.Repositories.Interfaces;
 using Store.Tests.Repositories;
+using System;
 
 namespace Store.Tests.Handlers
 {

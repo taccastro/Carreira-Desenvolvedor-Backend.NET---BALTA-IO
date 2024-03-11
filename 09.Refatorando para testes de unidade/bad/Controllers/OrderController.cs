@@ -1,11 +1,11 @@
+using Dapper;
+using Microsoft.AspNetCore.Mvc;
+using Store.Models;
 using System;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Dapper;
-using Microsoft.AspNetCore.Mvc;
-using Store.Models;
 
 namespace Store.Controllers
 {

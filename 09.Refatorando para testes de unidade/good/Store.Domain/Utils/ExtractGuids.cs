@@ -1,6 +1,6 @@
+using Store.Domain.Commands;
 using System;
 using System.Collections.Generic;
-using Store.Domain.Commands;
 
 namespace Store.Domain.Utils
 {

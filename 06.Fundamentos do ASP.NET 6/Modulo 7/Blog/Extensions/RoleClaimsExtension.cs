@@ -1,7 +1,7 @@
+using Blog.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
-using Blog.Models;
 
 namespace Blog.Extensions
 {

@@ -1,8 +1,8 @@
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Store.Domain.Entities;
 using Store.Domain.Queries;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Store.Tests.Queries
 {

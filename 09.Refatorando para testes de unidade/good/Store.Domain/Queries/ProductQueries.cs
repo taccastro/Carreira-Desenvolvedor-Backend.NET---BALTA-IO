@@ -1,6 +1,6 @@
+using Store.Domain.Entities;
 using System;
 using System.Linq.Expressions;
-using Store.Domain.Entities;
 
 namespace Store.Domain.Queries
 {

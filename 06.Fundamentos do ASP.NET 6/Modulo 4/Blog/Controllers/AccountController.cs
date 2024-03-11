@@ -37,7 +37,8 @@ public class AccountController : ControllerBase
 
             return Ok(new ResultViewModel<dynamic>(new
             {
-                user = user.Email, password
+                user = user.Email,
+                password
             }));
         }
         catch (DbUpdateException)
@@ -52,7 +53,7 @@ public class AccountController : ControllerBase
 
     [HttpPost("v1/accounts/login")]
     public async Task<IActionResult> Login(
-        [FromBody]LoginViewModel model,
+        [FromBody] LoginViewModel model,
         [FromServices] BlogDataContext context,
         [FromServices] TokenService tokenService)
     {
@@ -70,7 +71,7 @@ public class AccountController : ControllerBase
 
         if (!PasswordHasher.Verify(user.PasswordHash, model.Password))
             return StatusCode(401, new ResultViewModel<string>("Usuário ou senha inválidos"));
-        
+
         try
         {
             var token = tokenService.GenerateToken(user);

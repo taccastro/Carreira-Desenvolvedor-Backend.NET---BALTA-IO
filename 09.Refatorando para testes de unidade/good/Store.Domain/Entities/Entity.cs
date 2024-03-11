@@ -1,5 +1,5 @@
-using System;
 using Flunt.Notifications;
+using System;
 
 namespace Store.Domain.Entities
 {

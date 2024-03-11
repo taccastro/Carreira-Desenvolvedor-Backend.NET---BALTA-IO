@@ -1,6 +1,3 @@
-using System;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using Blog.Data;
 using Blog.Extensions;
 using Blog.Models;
@@ -8,10 +5,12 @@ using Blog.Services;
 using Blog.ViewModels;
 using Blog.ViewModels.Accounts;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SecureIdentity.Password;
+using System;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace Blog.Controllers
 {
@@ -36,8 +35,8 @@ namespace Blog.Controllers
 
             var password = PasswordGenerator.Generate(25);
             //user.PasswordHash = PasswordHasher<User>.Hash(password);
-            
-            
+
+
 
             try
             {
@@ -47,7 +46,8 @@ namespace Blog.Controllers
                 emailService.Send(user.Name, user.Email, "Bem vindo ao blog!", $"Sua senha é {password}");
                 return Ok(new ResultViewModel<dynamic>(new
                 {
-                    user = user.Email, password
+                    user = user.Email,
+                    password
                 }));
             }
             catch (DbUpdateException)

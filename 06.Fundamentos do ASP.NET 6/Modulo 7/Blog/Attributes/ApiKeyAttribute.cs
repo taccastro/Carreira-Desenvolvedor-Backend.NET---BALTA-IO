@@ -1,7 +1,7 @@
-using System;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using System;
+using System.Threading.Tasks;
 
 namespace Blog.Attributes
 {
@@ -9,7 +9,7 @@ namespace Blog.Attributes
     public class ApiKeyAttribute : Attribute, IAsyncActionFilter
     {
         public async Task OnActionExecutionAsync(
-            ActionExecutingContext context, 
+            ActionExecutingContext context,
             ActionExecutionDelegate next)
         {
             if (!context.HttpContext.Request.Query.TryGetValue(Configuration.ApiKeyName, out var extractedApiKey))
@@ -21,7 +21,7 @@ namespace Blog.Attributes
                 };
                 return;
             }
-        
+
             if (!Configuration.ApiKey.Equals(extractedApiKey))
             {
                 context.Result = new ContentResult()

@@ -1,7 +1,7 @@
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Store.Domain.Entities;
 using Store.Domain.Enums;
+using System;
 
 namespace Store.Tests.Domain
 {

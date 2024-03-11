@@ -1,8 +1,7 @@
-using System;
-using System.Collections.Generic;
-using Store.Domain.Commands.Interfaces;
 using Flunt.Notifications;
 using Flunt.Validations;
+using Store.Domain.Commands.Interfaces;
+using System;
 
 namespace Store.Domain.Commands
 {

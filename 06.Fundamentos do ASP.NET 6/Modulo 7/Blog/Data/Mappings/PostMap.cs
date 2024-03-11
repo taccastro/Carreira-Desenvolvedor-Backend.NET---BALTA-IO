@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Blog.Models;
+﻿using Blog.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.Collections.Generic;
 
 namespace Blog.Data.Mappings
 {

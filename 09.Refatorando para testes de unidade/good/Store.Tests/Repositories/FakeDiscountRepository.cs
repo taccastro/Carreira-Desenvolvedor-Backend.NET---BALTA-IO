@@ -1,6 +1,6 @@
-using System;
 using Store.Domain.Entities;
 using Store.Domain.Repositories.Interfaces;
+using System;
 
 namespace Store.Tests.Repositories
 {
