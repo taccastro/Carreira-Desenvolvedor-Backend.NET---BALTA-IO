@@ -143,7 +143,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtmBuilder.Core", "10.Aplic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtmBuilder.Core.Tests", "10.Aplicando Orientação a Objetos em Projetos Reais com C# 11 e .NET 7\UtmBuilder.Core.Tests\UtmBuilder.Core.Tests.csproj", "{CAE95266-AB2A-4FFF-A9D8-EDE415816E1F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - Dominando Injeção de Dependência", "11 - Dominando Injeção de Dependência", "{AE98AA7D-C294-46CD-A2E5-84C4BF0EB0AB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.Dominando Injeção de Dependência", "11.Dominando Injeção de Dependência", "{AE98AA7D-C294-46CD-A2E5-84C4BF0EB0AB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_final_DependencyStore", "11 - Dominando Injeção de Dependência\01 - final\01_final_DependencyStore.csproj", "{D1520257-E597-4B09-A5C6-85A27709C778}"
 EndProject
