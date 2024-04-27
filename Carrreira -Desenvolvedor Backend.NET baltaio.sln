@@ -173,6 +173,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06", "06", "{AD4CFAF6-8701-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyRoomBooking", "11 - Dominando Injeção de Dependência\06 - exercicios\DependencyRoomBooking.csproj", "{5F07B2D8-6BE0-4E78-8938-F1913CAE30EB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12.[Legado] Criando APIs com ASP.NET Core 2.0 e Dapper - Clean Arquitecture Hexagonal", "12.[Legado] Criando APIs com ASP.NET Core 2.0 e Dapper - Clean Arquitecture Hexagonal", "{10E44320-7E3A-4AC3-A536-05E6B91D1499}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Api", "12 - [Legado] Criando APIs com ASP.NET Core 2.0 e Dapper\BaltaStore.Api\BaltaStore.Api.csproj", "{B681083F-15E1-4DCB-A514-1583CE7E2086}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Domain", "12 - [Legado] Criando APIs com ASP.NET Core 2.0 e Dapper\BaltaStore.Domain\BaltaStore.Domain.csproj", "{654582CE-E27D-4952-A171-436C8143891E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Infra", "12 - [Legado] Criando APIs com ASP.NET Core 2.0 e Dapper\BaltaStore.Infra\BaltaStore.Infra.csproj", "{AC599740-41FA-4470-B177-023756EBC9CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Shared", "12 - [Legado] Criando APIs com ASP.NET Core 2.0 e Dapper\BaltaStore.Shared\BaltaStore.Shared.csproj", "{D0E9E565-6560-4E32-8ABD-3FEACA919F0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Tests", "12 - [Legado] Criando APIs com ASP.NET Core 2.0 e Dapper\BaltaStore.Tests\BaltaStore.Tests.csproj", "{1E290AFC-9F18-46E8-9A69-BA83AF7B6452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServerLocalDBInstalledExemplo", "SQLServerLocalDBInstalledExemplo\SQLServerLocalDBInstalledExemplo.csproj", "{D31C1AA5-F863-420E-B669-BCBC84BBCC81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -355,6 +369,30 @@ Global
 		{5F07B2D8-6BE0-4E78-8938-F1913CAE30EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F07B2D8-6BE0-4E78-8938-F1913CAE30EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F07B2D8-6BE0-4E78-8938-F1913CAE30EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B681083F-15E1-4DCB-A514-1583CE7E2086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B681083F-15E1-4DCB-A514-1583CE7E2086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B681083F-15E1-4DCB-A514-1583CE7E2086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B681083F-15E1-4DCB-A514-1583CE7E2086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654582CE-E27D-4952-A171-436C8143891E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654582CE-E27D-4952-A171-436C8143891E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654582CE-E27D-4952-A171-436C8143891E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654582CE-E27D-4952-A171-436C8143891E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC599740-41FA-4470-B177-023756EBC9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC599740-41FA-4470-B177-023756EBC9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC599740-41FA-4470-B177-023756EBC9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC599740-41FA-4470-B177-023756EBC9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E9E565-6560-4E32-8ABD-3FEACA919F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E9E565-6560-4E32-8ABD-3FEACA919F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E9E565-6560-4E32-8ABD-3FEACA919F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E9E565-6560-4E32-8ABD-3FEACA919F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E290AFC-9F18-46E8-9A69-BA83AF7B6452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E290AFC-9F18-46E8-9A69-BA83AF7B6452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E290AFC-9F18-46E8-9A69-BA83AF7B6452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E290AFC-9F18-46E8-9A69-BA83AF7B6452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31C1AA5-F863-420E-B669-BCBC84BBCC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31C1AA5-F863-420E-B669-BCBC84BBCC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31C1AA5-F863-420E-B669-BCBC84BBCC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31C1AA5-F863-420E-B669-BCBC84BBCC81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -422,6 +460,12 @@ Global
 		{222C9920-D680-43B2-A6B8-FE12DC91FC40} = {66D87356-9EFD-422E-96CB-3A10CAA2C273}
 		{AD4CFAF6-8701-4AA9-8F22-2C67C5F75430} = {AE98AA7D-C294-46CD-A2E5-84C4BF0EB0AB}
 		{5F07B2D8-6BE0-4E78-8938-F1913CAE30EB} = {AD4CFAF6-8701-4AA9-8F22-2C67C5F75430}
+		{B681083F-15E1-4DCB-A514-1583CE7E2086} = {10E44320-7E3A-4AC3-A536-05E6B91D1499}
+		{654582CE-E27D-4952-A171-436C8143891E} = {10E44320-7E3A-4AC3-A536-05E6B91D1499}
+		{AC599740-41FA-4470-B177-023756EBC9CF} = {10E44320-7E3A-4AC3-A536-05E6B91D1499}
+		{D0E9E565-6560-4E32-8ABD-3FEACA919F0F} = {10E44320-7E3A-4AC3-A536-05E6B91D1499}
+		{1E290AFC-9F18-46E8-9A69-BA83AF7B6452} = {10E44320-7E3A-4AC3-A536-05E6B91D1499}
+		{D31C1AA5-F863-420E-B669-BCBC84BBCC81} = {DA13F8D8-E0A5-4BFA-BF73-6A8B61D75DFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16266BCE-9A85-4093-9017-89C782638F29}
