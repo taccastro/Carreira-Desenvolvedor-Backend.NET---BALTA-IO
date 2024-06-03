@@ -185,7 +185,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Shared", "12 - [
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Tests", "12 - [Legado] Criando APIs com ASP.NET Core 2.0 e Dapper\BaltaStore.Tests\BaltaStore.Tests.csproj", "{1E290AFC-9F18-46E8-9A69-BA83AF7B6452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServerLocalDBInstalledExemplo", "SQLServerLocalDBInstalledExemplo\SQLServerLocalDBInstalledExemplo.csproj", "{D31C1AA5-F863-420E-B669-BCBC84BBCC81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerLocalDBInstalledExemplo", "SQLServerLocalDBInstalledExemplo\SQLServerLocalDBInstalledExemplo.csproj", "{D31C1AA5-F863-420E-B669-BCBC84BBCC81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13.Todo App API com ASP.NET Core, CQRS e EF Core", "13.Todo App API com ASP.NET Core, CQRS e EF Core", "{A6C259AE-4E30-4991-8B84-0AC47BD082F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
