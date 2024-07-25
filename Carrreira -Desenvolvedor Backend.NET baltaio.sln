@@ -185,11 +185,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Shared", "12 - [
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Tests", "12 - [Legado] Criando APIs com ASP.NET Core 2.0 e Dapper\BaltaStore.Tests\BaltaStore.Tests.csproj", "{1E290AFC-9F18-46E8-9A69-BA83AF7B6452}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerLocalDBInstalledExemplo", "SQLServerLocalDBInstalledExemplo\SQLServerLocalDBInstalledExemplo.csproj", "{D31C1AA5-F863-420E-B669-BCBC84BBCC81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServerLocalDBInstalledExemplo", "SQLServerLocalDBInstalledExemplo\SQLServerLocalDBInstalledExemplo.csproj", "{D31C1AA5-F863-420E-B669-BCBC84BBCC81}"
 EndProject
-<<<<<<< HEAD
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13.Todo App API com ASP.NET Core, CQRS e EF Core", "13.Todo App API com ASP.NET Core, CQRS e EF Core", "{A6C259AE-4E30-4991-8B84-0AC47BD082F1}"
-=======
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13.Todo App API com ASP.NET Core, CQRS e EF Core", "13.Todo App API com ASP.NET Core, CQRS e EF Core", "{6BC3E329-28A2-4E1E-9273-B644B2EA65EB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Domain", "13 - Todo App API com ASP.NET Core, CQRS e EF Core\Todo.Domain\Todo.Domain.csproj", "{C708E099-085A-44DF-A0D7-FA44BF0063F1}"
@@ -199,7 +196,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Domain.Infra", "13 - Todo App API com ASP.NET Core, CQRS e EF Core\Todo.Domain.Infra\Todo.Domain.Infra.csproj", "{849EE94A-D86A-468E-8FCD-50393B086139}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Domain.Tests", "13 - Todo App API com ASP.NET Core, CQRS e EF Core\Todo.Domain.Tests\Todo.Domain.Tests.csproj", "{4E47A1DA-9238-47A4-9F4C-C0A2787E9443}"
->>>>>>> upload project mod13 carreira baltaio
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
